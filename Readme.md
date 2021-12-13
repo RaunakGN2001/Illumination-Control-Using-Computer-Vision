@@ -62,7 +62,7 @@ The Hand Gesture Recognition Algorithm involves the following steps:
 
   <br>
 
-  <img src = "./Images/HandModel.png">
+  <img src = "./Images/HandModel.png" width = 85%>
 
 <br>
 
@@ -72,10 +72,10 @@ The purpose of this project is the use of Computer Vision and Arduino to control
 
 # Working of the Python Code
 First and foremost we need to install the required modules via the following commands - 
-<img src = "./Images/pip_install.png">
+<img src = "./Images/pip_install.png" width = 80%>
 After it's done lets first check whether our Webcam is working or not via a piece of python code as given below.
-<img src = "./Images/WebcamCheck.png">
-<img src = "./Images/FPSCheck.png">
+<img src = "./Images/WebcamCheck.png" width = 90%>
+<img src = "./Images/FPSCheck.png" width = 80%>
 Our PC is working fine as we can see and it also shows Frames per second (FPS) on the top left corner of the output window. 
 
 ### Sneak peek into [HandTrackingModule.py](HandTrackingModule.py)
@@ -94,7 +94,7 @@ The findPosition() function gives the position of the hand along with the id.
 Finally comes the main() function where we initialize our model and also write a while loop to run the model.
 <img src = "./Images/main.png">
 Now on successful running of HandTrackingModule.py we are getting this as output as given in the picture below.
-<img src = "./Images/HTMOutput.png">
+<img src = "./Images/HTMOutput.png" width = 80%>
 
 ### Sneak peek into [BrightnessControl.py](BrightnessControl.py)
 
@@ -113,6 +113,26 @@ The final image where distance has been calculated between the 2 fingers live vi
 # Working of Arduino Code
 First we need to make sure that our Arduino Board, Processor and Port have been configured properly in the Arduino IDE to avoid any connection error.
 In the Menu Bar we need to select Tools > Board > Arduino Nano. Then we need to choose Tools > Processor > ATmega328P (Old Bootloader).
+The Arduino Code stated in [sketch_dec10a.ino](sketch_dec10a.ino) is receiving data from our Laptop / PC through Serial Communication which is UART. Now lets get straight into the working of the code.
+<img src = "./Images/ArduinoCodePiece1.png" width = 60%>
+The piece of code written above is responsible for receiving the data serially which is being trasmitted by the [BrightnessControl.py](BrightnessControl.py). 
+Here **'\n'** refers to escape sequence. Data is received when it comes across this character which is stored in the variable 'red' of type integer.
+<img src = "./Images/ArduinoCodePiece2.png" width = 60%>
+This code given above sets the data according to the received value which is in range of 0-255 as Arduino is a 8bit microcontroller. After the value is received, it is set and finally sent through serial communication which in turn triggers the LEDs connected to the circuit. 
+
+
+# Circuit Diagram
+
+<img src = "./Images/CircuitDiagram.jpeg" width = 85%>
+
+
+# Final Output
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="./Images/VideoBanner.png">
+    <source src="./Images/FinalOutputVideo.mp4" type="video/mp4">
+  </video>
+</figure>
 
 
 
