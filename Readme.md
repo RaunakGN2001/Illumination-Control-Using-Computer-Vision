@@ -128,11 +128,9 @@ This code given above sets the data according to the received value which is in 
 
 # Final Output
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./Images/VideoBanner.png">
-    <source src="./Images/FinalOutputVideo.mp4" type="video/mp4">
-  </video>
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/398RqwcYSrU?start=42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
 
 
 
