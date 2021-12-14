@@ -1,35 +1,35 @@
 # Basic Info
 
-#### Project Title
-Illumination Control 🔆 Using Computer Vision 👁
-#### Team Members 
+## Project Title
+Illumination Control 🔆 using Computer Vision 👁
+## Team Members 
 - [Kaustav Saha](https://github.com/Kaustav-45)
 - [Subhadeep Das](https://github.com/subhadeep01)
 - [Soham Patra](https://github.com/Sohampatra1)
 - [Raunak Gayen](https://github.com/RaunakGN2001)
-#### Broad Areas our project focuses on
-- Computer Vision
-- Hand Gesture Recognition System
-- Arduino
-#### Hardware we used
-- Arduino Nano V3
-- Jumper Wires
-- Breadboard
-- LED
-- 220Ω Resistor
-- Cable for Arduino Nano
-#### Software we used
-- Arduino IDE
-- PyCharm
-- Jupyter Notebook
-#### Python Libraries we used
+## Broad Areas our project focuses on
+- [Computer Vision](https://www.ibm.com/in-en/topics/computer-vision#:~:text=Computer%20vision%20is%20a%20field,recommendations%20based%20on%20that%20information.)
+- [Hand Gesture Recognition System](https://www.sciencedirect.com/science/article/pii/S1877050917319130)
+- [Arduino](https://www.arduino.cc/en/guide/introduction)
+## Hardware we used
+- [Arduino Nano V3](https://store.arduino.cc/products/arduino-nano)
+- [Jumper Wires](http://blog.sparkfuneducation.com/what-is-jumper-wire)
+- [Breadboard](https://www.makeuseof.com/tag/what-is-breadboard/)
+- [LED](https://cisuvc.com/aln-technology/what-is-an-led)
+- [220Ω Resistor](https://www.exploringarduino.com/parts/220ohm-resistor/)
+- [Cable for Arduino Nano](https://robu.in/product/cable-arduino-nano-usb-2-0-usb-2-0-mini-b-20cm/)
+## Software we used
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac)
+- [Jupyter Notebook](https://jupyter.org/try)
+## Python Libraries we used
 - OpenCV-Python
 - Mediapipe
 - Pyserial
 - Numpy
 - Python-Math
-#### Youtube Video Link
-<a href = "https://youtu.be/398RqwcYSrU"><img src = "./Images/VideoBanner.png" width = 60%></a>
+## Youtube Video Link
+<a href = "https://youtu.be/398RqwcYSrU"><img src = "./Images/VideoBanner.png" width = 40%></a>
 
 
 # Introduction
