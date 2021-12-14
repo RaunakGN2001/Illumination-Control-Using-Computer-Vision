@@ -1,3 +1,6 @@
+![CoverGIF](https://user-images.githubusercontent.com/74176824/145949415-e802dc62-c311-44f2-9110-237d9cf2e0d3.gif)
+
+
 # Basic Info
 
 ## Project Title
